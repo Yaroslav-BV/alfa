@@ -1,3 +1,6 @@
+const baseConfig = require('@repo/lint-staged-config')
+
 module.exports = {
-  "package.json": ["npx -y sort-package-json"],
-};
+  ...baseConfig,
+  '**/*!(package*).{js,json,*rc}': ['prettier --write'],
+}
