@@ -11,9 +11,7 @@
     "packages/**"
   ],
   "scripts": {
-    "commitlint": "commitlint --edit",
     "dev": "turbo dev",
-    "pre-commit": "lint-staged",
     "prepare": "husky"
   },
   "config": {
