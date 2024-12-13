@@ -1,6 +1,6 @@
-const baseConfig = require('@repo/lint-staged-config')
+import baseConfig from '@repo/lint-staged-config'
 
-module.exports = {
+export default {
   ...baseConfig,
   '**/*!(package*).{js,json,*rc}': ['prettier --write'],
 }

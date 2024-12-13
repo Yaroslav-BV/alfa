@@ -1,1 +1,3 @@
-module.exports = require("@repo/prettier-config");
+const prettierConfig = (await import('@repo/prettier-config')).default
+
+export default prettierConfig
