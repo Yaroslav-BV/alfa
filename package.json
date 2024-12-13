@@ -8,7 +8,7 @@
   "author": "",
   "workspaces": [
     "apps/*",
-    "packages/*"
+    "packages/**"
   ],
   "scripts": {
     "commitlint": "commitlint --edit",
