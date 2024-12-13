@@ -1,3 +1,1 @@
-const prettierConfig = (await import('@repo/prettier-config')).default
-
-export default prettierConfig
+export { default } from '@repo/prettier-config'
