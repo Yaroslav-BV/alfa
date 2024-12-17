@@ -12,6 +12,7 @@
     "packages/**"
   ],
   "scripts": {
+    "build": "turbo build",
     "dev": "turbo dev",
     "prepare": "node scripts/prepare.js"
   },
