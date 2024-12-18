@@ -14,6 +14,8 @@
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
+    "lint": "turbo lint",
+    "lint:fix": "turbo lint:fix",
     "prepare": "node scripts/prepare.js"
   },
   "config": {

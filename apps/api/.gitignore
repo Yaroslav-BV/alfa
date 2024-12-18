@@ -4,6 +4,7 @@
 /build
 
 # Logs
+/.turbo
 logs
 *.log
 npm-debug.log*
