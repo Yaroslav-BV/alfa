@@ -1,11 +1,13 @@
 {
-  "name": "alfa",
+  "name": "alpha-system",
   "version": "1.0.0",
   "private": true,
-  "description": "",
-  "keywords": [],
-  "license": "ISC",
-  "author": "",
+  "description": "Synapse Smart App. Alpha System.",
+  "contributors": [
+    "Yaroslav Badikov <iav.badikov1@stalcom.com>",
+    "Sergey Ermolaev <sa.ermolaev@stalcom.com>",
+    "Nikita Kravchuk <na.kravchuk2@severstal.com>"
+  ],
   "type": "module",
   "workspaces": [
     "apps/*",
