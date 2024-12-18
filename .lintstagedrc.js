@@ -1,6 +1,4 @@
-import baseConfig from '@repo/lint-staged-config'
-
 export default {
-  ...baseConfig,
+  '**/package.json': ['npx -y sort-package-json'],
   '**/*!(package*).{js,json,*rc}': ['prettier --write'],
 }

@@ -10,7 +10,7 @@ export default tseslint.config(
   { ignores: ['dist'] },
   {
     extends: [js.configs.recommended, ...tseslint.configs.recommended, prettierConfig],
-    files: ['**/*.{js,jsx,ts,tsx}'], // TODO: add css
+    files: ['**/*.{js,jsx,ts,tsx}'],
     languageOptions: {
       ecmaVersion: 2020,
       globals: globals.browser,
